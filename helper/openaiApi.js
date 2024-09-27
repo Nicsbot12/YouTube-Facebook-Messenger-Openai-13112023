@@ -2,7 +2,7 @@ const { OpenAI } = require("openai");
 require('dotenv').config();
 
 const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
+  apiKey: 'sk-BecQcuLzEZaQXOndcVUVC8mYjenoa1LuopYejShGW9T3BlbkFJ5BKXxrLKxC8_kPWRtNtiOLgrsNZlZqVW_kr8PIcM8A',
 });
 
 const chatCompletion = async (prompt) => {
